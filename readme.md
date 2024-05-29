@@ -14,6 +14,6 @@ npm install
 To start the development server, run the following command:
 
 ``` bash
-npm run dev
+npm start
 ```
 This will start the server and open your default browser to your localhost. The site will reload automatically as you make changes to your code.
