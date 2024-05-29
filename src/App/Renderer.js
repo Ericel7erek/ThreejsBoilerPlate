@@ -8,13 +8,11 @@ export default class Renderer{
         this.camera = this.app.camera
         this.scene = this.app.scene
         this.loop = this.app.camera.setLoop()
-        console.log("I'm Renderer");
         this.setRenderer()
 
     }
 
     setRenderer(){
-    console.log("AA");
     this.renderer = new THREE.WebGLRenderer({
     canvas: this.canvas,
     antialias: true,
